@@ -1,5 +1,7 @@
 # STAD-CoAtt
 
+In the STAD-CoAtt architecture, spatiotemporal representations have been extracted to classify AD pathological stages. Specifically, dynamic gene networks at multiple stages were inferred and exploited as spatial features. Please refer to our [STAD-CoAtt](https://ieeexplore.ieee.org/document/11150717) for more details.
+
 In order to exploit structure information about evolving gene graphs, spatiotemporal graph learning approaches are able to analyze structure disorder and disorganization of regulatory systems that govern disease states.  Using brain transcriptomics data, this study proposes a multi-view GCN model, which integrates changes of transcript level and gene graphs to evaluate neuropathological stages.  Under the framework of spatiotemporal graph learning, the proposed STAD-CoAtt method constructs joint spatiotemporal(ST) representations of brain snRNA-seq data, to predict neuropathological scores and cognitive decline.
 
 ## Architecture
